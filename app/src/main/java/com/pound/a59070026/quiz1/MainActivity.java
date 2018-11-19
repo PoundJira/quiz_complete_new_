@@ -1,0 +1,22 @@
+package com.pound.a59070026.quiz1;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        if (savedInstanceState == null){
+            getSupportFragmentManager().beginTransaction().replace(R.id.main_view, new LoginFragment()).commit();
+        }
+
+
+        //setContentView(R.layout.activity_main);
+//        setContentView(R.layout.fregment_login);
+//        setContentView(R.layout.fregment_register); //ตั้งค่าหน้าแรกของแอป
+    }
+}
+

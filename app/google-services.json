@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "30085645697",
+    "firebase_url": "https://test1-e3720.firebaseio.com",
+    "project_id": "test1-e3720",
+    "storage_bucket": "test1-e3720.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30085645697:android:e099f48e5d82031d",
+        "android_client_info": {
+          "package_name": "com.pound.a59070026.quiz1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30085645697-2jqgh6i89qrsukdm2f29v1lkcffnh6ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnjkDec2qqlopr02q100JUvL-etV30rLg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
